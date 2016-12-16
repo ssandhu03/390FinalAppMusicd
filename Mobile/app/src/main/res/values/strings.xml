@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MobileFinal</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <!-- Strings for Concerts Activity -->
+    <string name="Concert">Concert</string>
+    <string name="Concert_Title">Enter your Concert Information:</string>
+    <string name="bandName">Band name</string>
+    <string name="address">Address</string>
+    <string name="capacity">Capacity</string>
+    <string name="date">Date</string>
+    <string name="specialInfo">specialInfo</string>
+    <string name="Submit">Submit</string>
+    <string name="HomePage">Home Page</string>
+    <string name="genre">Genre</string>
+
+
+    <!-- Strings for Home Activity -->
+    <string name="hTitle">Home</string>
+    <string name="Home">Local Concerts!</string>
+    <string name="addConcert">Add a Concert</string>
+    <string name="findConcerts">Find Concerts</string>
+    <string name="Settings">Settings</string>
+</resources>

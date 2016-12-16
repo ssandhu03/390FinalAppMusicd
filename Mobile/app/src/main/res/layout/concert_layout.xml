@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/concerts"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Concert_Title"
+        android:id="@+id/cTitleLabel"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/bandName"
+        android:id="@+id/bandName"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/genre"
+        android:id="@+id/genre"/>
+
+    <!--
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/date"
+        android:id="@+id/date"/>
+        -->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/specialInfo"
+        android:id="@+id/specialInfo"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getDate"
+        android:text="Pick Date"
+        android:onClick="setDate"
+        style="@style/CustomButtonStyle"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick Time"
+        android:onClick="setTime"
+        style="@style/CustomButtonStyle"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_Concert"
+        android:text="@string/Submit"
+        android:onClick="Submit"
+        style="@style/CustomButtonStyle"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fjdklsjaflkdsfjlksadffasdfsadf"
+        android:textColor="@color/white"
+        android:id="@+id/lb1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fjkdsafkldsjfkdlsjfkdlsjfkldsjf"
+        android:textColor="@color/white"
+        android:id="@+id/lb2"/>
+
+
+    <!--
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </DatePicker>
+    -->
+    <TimePicker
+        android:id="@+id/timePicker1"
+        android:layout_width="0dip"
+        android:layout_height="0dip">
+    </TimePicker>
+
+
+</LinearLayout>

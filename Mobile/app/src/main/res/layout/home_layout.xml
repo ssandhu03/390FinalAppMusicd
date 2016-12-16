@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/hLayout"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome! \n
+        Add Concert? -> Click on map button and click on map \n
+        View Concerts? -> Click on MAP, or Find Concerts \n
+        Change Settings? -> Click on Settings"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/lbl"
+
+        android:textSize="16sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Add"
+        android:text="MAP"
+        android:onClick="AddConcert"
+        android:layout_below="@id/lbl"
+        style="@style/CustomButtonStyle"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Find"
+        android:text="@string/findConcerts"
+        android:layout_below="@id/Add"
+        android:onClick="FindConcerts"
+        style="@style/CustomButtonStyle"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Settings"
+        android:text="@string/Settings"
+        android:layout_below="@id/Find"
+        android:onClick="Settings"
+        style="@style/CustomButtonStyle"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rockbandlogo"
+        android:layout_below="@id/Settings"/>
+
+</RelativeLayout>
